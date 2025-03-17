@@ -1,0 +1,20 @@
+{
+    "name": "template-project",
+    "version": "1.0.0",
+    "dependencies": [
+        "fmt",
+        "spdlog",
+        "nlohmann-json",
+        {
+            "name": "gtest",
+            "platform": "!windows"
+        }
+    ],
+    "builtin-baseline": "2024-03-14",
+    "overrides": [
+        {
+            "name": "fmt",
+            "version": "10.2.1"
+        }
+    ]
+} 
